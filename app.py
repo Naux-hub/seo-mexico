@@ -21,8 +21,8 @@ def skapa_checkout(email):
         line_items=[{"price": price_id, "quantity": 1}],
         mode="subscription",
         customer_email=email,
-        success_url="https://seo-espana-69mv3xbfba8ajnhmodf9jg.streamlit.app?paid=true",
-        cancel_url="https://seo-espana-69mv3xbfba8ajnhmodf9jg.streamlit.app",
+        success_url="https://seo-mexico-nuerrjkstwwckhym46v6pa.streamlit.app?paid=true",
+        cancel_url="https://seo-mexico-nuerrjkstwwckhym46v6pa.streamlit.app",
     )
     return session.url
 
