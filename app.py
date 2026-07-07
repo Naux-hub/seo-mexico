@@ -97,7 +97,7 @@ else:
                     st.error("No se encontraron datos. Prueba otra palabra clave.")
     else:
         st.info("Suscríbete para acceder a la investigación de palabras clave.")
-        if st.button("Suscribirse a SEO México Pro - €29/mes"):
+        if st.button("Suscribirse a SEO México Pro - MX$299/mes"):
             url = skapa_checkout(st.session_state.user.email)
             st.markdown(f"[Haz clic aquí para pagar]({url})")
 
